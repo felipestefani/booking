@@ -7,14 +7,14 @@ import { MainContext } from "../../contexts/MainContext";
 
 const Header = () => {
   const navigate = useNavigate();
-  const createAccount = { label: "Criar conta", path: "/register" };
-  const login = { label: "Iniciar sessão", path: "/login" };
+  const createAccount = { label: "Criar conta", path: "/booking/register" };
+  const login = { label: "Iniciar sessão", path: "/booking/login" };
   const { initials } = useContext(AuthContext)
   const { path } = useContext(MainContext)
   
   const buttons = [
-    { label: "Criar conta", path: "/register" },
-    { label: "Iniciar sessão", path: "/login" },
+    { label: "Criar conta", path: "/booking/register" },
+    { label: "Iniciar sessão", path: "/booking/login" },
   ];
 
   return (

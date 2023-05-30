@@ -14,11 +14,11 @@ const App = () => {
         <BrowserRouter>
           <MainTemplate>
             <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/home' element={<Home />} />
-              <Route path='/login' element={<Login />} />
-              <Route path='/register' element={<Register />} />
-              <Route path="/product/:id" element={<ProductDetails />} />
+              <Route path='/booking' element={<Home />} />
+              <Route path='/booking/home' element={<Home />} />
+              <Route path='/booking/login' element={<Login />} />
+              <Route path='/booking/register' element={<Register />} />
+              <Route path="/booking/product/:id" element={<ProductDetails />} />
             </Routes>
           </MainTemplate>
         </BrowserRouter>

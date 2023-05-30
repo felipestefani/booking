@@ -9,12 +9,12 @@ const Login = () => {
     const { path, setPath } = useContext(MainContext)
 
     useEffect(()=> {
-        setPath('/login')
+        setPath('/booking/login')
     })
     return (
         <div className={styles.containerLogin}>
             <LoginForm />
-            <p className={styles.p}>Ainda não tem conta? <Link to={'/register'} className={styles.linkRegister}>Registre-se</Link> </p>
+            <p className={styles.p}>Ainda não tem conta? <Link to={'/booking/register'} className={styles.linkRegister}>Registre-se</Link> </p>
         </div>
     )
 }

@@ -10,7 +10,7 @@ const Home = () => {
     const { setPath } = useContext(MainContext)
 
     useEffect(() => {
-        setPath('/')
+        setPath('/booking')
     })
 
     return(

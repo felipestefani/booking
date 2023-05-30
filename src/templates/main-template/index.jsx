@@ -9,7 +9,7 @@ const MainTemplate = ({children}) => {
     return(
         <div className={styles.container}>
             <Header />
-            <main className={styles.main} style={{background:`${path == '/login' || path == '/register' ? '#f6f6f6' : ''}`}}>
+            <main className={styles.main} style={{background:`${path == '/booking/login' || path == '/booking/register' ? '#f6f6f6' : ''}`}}>
                 {children}
             </main>    
             <Footer />        

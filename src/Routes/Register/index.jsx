@@ -9,7 +9,7 @@ import { useContext, useEffect } from "react";
     const {path, setPath} = useContext(MainContext)
 
     useEffect(()=>{
-        setPath('/register')
+        setPath('/booking/register')
     })
 
     return(
