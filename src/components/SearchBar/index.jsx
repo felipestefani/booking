@@ -48,7 +48,7 @@ const SearchBar = () => {
                         />
                     </div>
                 </div>
-                <button className={styles.searchButton} onClick={() => handleClick}>Buscar</button>  
+                <button className={styles.searchButton} onClick={handleClick}>Buscar</button>  
             </form>
         </div>
     )

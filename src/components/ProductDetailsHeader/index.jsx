@@ -11,7 +11,7 @@ const ProductDetailsHeader = () => {
                     <h2>Nome do Produto</h2>
                 </div>
                 <div className={styles.returnIcon}>
-                   <Link to='/home'><IoArrowBackCircleOutline size={'3em'} color="#FFF"/></Link>
+                   <Link to='/booking/home'><IoArrowBackCircleOutline size={'3em'} color="#FFF"/></Link>
                 </div>
             </section>
             <section className={styles.locationAndRate}>
