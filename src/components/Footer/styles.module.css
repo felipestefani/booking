@@ -1,0 +1,32 @@
+.containerFooter {
+    width: 100%;
+    height: 58px;
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 1em;
+}
+
+
+.logo p{
+    color: var(--lighter-constrast-color);
+}
+
+.listFooter img{
+    width: 1.5em;
+}
+
+@media screen and (max-width: 768.99px) {
+    .listFooter{
+        display: none;
+    }
+}

@@ -1,0 +1,57 @@
+/* custom-styles.css */
+
+.rs-picker-daterange-menu {
+    width: 60%;
+}
+
+.rs-stack-item {
+    width: 100%;
+}
+
+.rs-picker-daterange-calendar-group {
+    display: flex;
+}
+
+.rs-calendar {
+    flex-grow: 1;
+}
+
+.rs-picker-daterange-header {
+    display: none;
+}
+
+.rs-picker-toolbar {
+    display: none;
+}
+
+.rs-calendar-table {
+    pointer-events: none;
+}
+
+.rs-calendar-table-cell-is-today .rs-calendar-table-cell-content{
+    --rs-input-focus-border: none;
+}
+
+/*--------------------------- Media queries --------------------------------*/
+@media (min-width: 769px) and (max-width: 1024.99px){
+
+    .rs-picker-daterange-menu {
+        width: 95%;
+    }
+
+    .calendarContainer {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 768.99px){
+    .rs-picker-daterange-menu {
+        align-self: center;
+        justify-content: center;
+        width: 93%;
+    }
+
+    .calendarContainer {
+        flex-basis: 100%;
+    }
+}

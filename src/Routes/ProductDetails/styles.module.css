@@ -1,0 +1,18 @@
+
+.productDetailsContainer {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+}
+
+.shareAndLike {
+    display: flex;
+    padding: 0.5em 2em;
+    gap: 1em;
+}
+
+.space {
+    height: 6em;
+}
+
+
