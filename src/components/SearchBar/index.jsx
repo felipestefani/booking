@@ -1,12 +1,19 @@
 import styles from './styles.module.css'
 import { useState } from "react";
 import { MdLocationOn } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 const SearchBar = () => {
     const [startDate, setStartDate] = useState(new Date())
     const [endDate, setEndDate] = useState(new Date())
+    const navigate = useNavigate()
+
+    const handleClick = (e) => {
+        e.preventDefault()
+        navigate('/booking/product')
+    }
 
     return (
         <div className={styles.container}>
@@ -41,7 +48,7 @@ const SearchBar = () => {
                         />
                     </div>
                 </div>
-                <button className={styles.searchButton} type='submit'>Buscar</button>  
+                <button className={styles.searchButton} onClick={() => handleClick}>Buscar</button>  
             </form>
         </div>
     )
