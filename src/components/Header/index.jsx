@@ -23,7 +23,7 @@ const Header = () => {
         <Link to={"/"}>
           <img src="../../images/icon-hotel.png" alt="icon-car" />
         </Link>
-        <h2><Link to={'/'} className={styles.slogan}>Sinta-se em casa</Link></h2>
+        <h2><Link to={'/booking'} className={styles.slogan}>Sinta-se em casa</Link></h2>
       </div>
       <div>
         <div >
